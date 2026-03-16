@@ -24,6 +24,39 @@ app_license = "mit"
 # Includes in <head>
 # ------------------
 
+
+
+
+
+
+
+
+fixtures = [
+
+    "Custom Field",
+
+    "Property Setter",
+
+    "Workspace",
+
+    "Role",
+
+    "Custom DocPerm",
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # include js, css files in header of desk.html
 # app_include_css = "/assets/quantbit_ishs_customization/css/quantbit_ishs_customization.css"
 # app_include_js = "/assets/quantbit_ishs_customization/js/quantbit_ishs_customization.js"

@@ -1,0 +1,15 @@
+{
+ "app": "quantbit_ishs_customization",
+ "creation": "2026-03-14 16:16:40.957345",
+ "docstatus": 0,
+ "doctype": "Workspace Sidebar",
+ "header_icon": "accounting",
+ "idx": 0,
+ "items": [],
+ "modified": "2026-03-14 16:16:40.957345",
+ "modified_by": "Administrator",
+ "name": "Donor Managemenet",
+ "owner": "Administrator",
+ "standard": 1,
+ "title": "Donor Managemenet"
+}
