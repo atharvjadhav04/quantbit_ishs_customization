@@ -33,11 +33,42 @@ app_license = "mit"
 
 fixtures = [
 
-    "Custom Field",
-    "Property Setter",
-    "Workspace",
-    "Role",
-    "Custom DocPerm",
+    {
+    "dt": "Custom Field",
+    "filters": [
+        ["module", "=", "Quantbit Ishs Customization"]
+    ]
+    },
+    {
+    "dt": "Property Setter",
+    "filters": [
+        ["module", "=", "Quantbit Ishs Customization"]
+    ]
+    },
+    {
+        "dt": "Workspace",
+            "filters": [
+                ["name", "in", ["Buying", "Selling", "Stock", "Invoicing","Shift & Attendance","Expenses","Performance","Invoicing","Projects","Subcontracting","Manufacturing","Stock"]]
+        ]
+    },
+    {
+    "dt": "Desktop Icon",
+    "filters": [
+        ["name", "in", ["GST India", "CRM","Selling","Buying","Stock","Assets","Projects","Support","Quality","Manufacturing","Subcontracting"]]
+    ]
+},
+    {
+        "dt": "Role",
+        "filters": [
+            ["name", "in", ["Resident Manager", "Board Manager"]]
+        ]
+    },
+    {
+    "dt": "Custom DocPerm",
+    "filters": [
+        ["parent", "in", ["Dunning Type", "Dunning"]]
+    ]
+},
 ]
 
 
