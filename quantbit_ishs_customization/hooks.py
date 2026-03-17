@@ -54,7 +54,7 @@ fixtures = [
     {
     "dt": "Desktop Icon",
     "filters": [
-        ["name", "in", ["GST India", "CRM","Selling","Buying","Stock","Assets","Projects","Support","Quality","Manufacturing","Subcontracting"]]
+        ["name", "in", ["GST India", "CRM","Selling","Buying","Stock","Assets","Projects","Support","Quality","Manufacturing","Subcontracting","Share Management","Subscription"]]
     ]
 },
     {
